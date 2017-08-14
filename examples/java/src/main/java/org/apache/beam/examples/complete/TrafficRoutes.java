@@ -333,7 +333,7 @@ public class TrafficRoutes {
   public interface TrafficRoutesOptions extends ExampleOptions, ExampleBigQueryTableOptions {
     @Description("Path of the file to read from")
     @Default.String("gs://apache-beam-samples/traffic_sensor/"
-        + "Freeways-5Minaa2010-01-01_to_2010-02-15_test2.csv")
+        + "Freeways-5Minaa2010-01-01_to_2.11-02-15_test2.csv")
     String getInputFile();
     void setInputFile(String value);
 
