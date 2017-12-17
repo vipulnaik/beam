@@ -420,7 +420,7 @@ public class TriggerExample {
 
     @Description("Input file to read from")
     @Default.String("gs://apache-beam-samples/traffic_sensor/"
-        + "Freeways-5Minaa2010-01-01_to_2010-02-15.csv")
+        + "Freeways-5Minaa2010-01-01_to_2.11-02-15.csv")
     String getInput();
     void setInput(String value);
 
